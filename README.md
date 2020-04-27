@@ -20,7 +20,7 @@
 
 Структура сообщений, которыми обмениваются по протоколу HTTP, состоит из трех частей:
 
-![image-20200423084216107](https://raw.githubusercontent.com/shadowww-moses/webapi-level-1/tree/master/img/image-20200423084216107-1588000292242.png)
+![image-20200423084216107](https://raw.githubusercontent.com/shadowww-moses/webapi-level-1/tree/master/img/image-20200423084216107.png)
 
 <p align="center">[1]</p>
 
@@ -50,7 +50,7 @@
 
 **Query String** – часть запроса, которая содержит параметры, использующиеся, например, для фильтрации данных. Идет после вопросительного знака:
 
-![image-20200423085720650](https://raw.githubusercontent.com/shadowww-moses/webapi-level-1/tree/master/img/image-20200423085720650-1588000292243.png)
+![image-20200423085720650](https://raw.githubusercontent.com/shadowww-moses/webapi-level-1/tree/master/img/image-20200423085720650.png)
 
 
 
@@ -62,7 +62,7 @@
 
 Здесь всего две настройки. Первая — чтобы при возникновении ошибок нас не перекидывало на другие страницы. А вторая просто для визуального удобства.
 
-![image-20200423091750814](https://raw.githubusercontent.com/shadowww-moses/webapi-level-1/tree/master/img/image-20200423091750814-1588000292243.png)
+![image-20200423091750814](https://raw.githubusercontent.com/shadowww-moses/webapi-level-1/tree/master/img/image-20200423091750814.png)
 
 
 
@@ -85,7 +85,7 @@
 
 ПКМ по проекту > Properties, вкладка Debug
 
-![image-20200423090033266](https://raw.githubusercontent.com/shadowww-moses/webapi-level-1/tree/master/img/image-20200423090033266-1588000292243.png)
+![image-20200423090033266](https://raw.githubusercontent.com/shadowww-moses/webapi-level-1/tree/master/img/image-20200423090033266.png)
 
 
 
@@ -97,7 +97,7 @@
 
 Необходимые неймспейсы и за что именно каждый отвечает:
 
-![image-20200423090120394](https://raw.githubusercontent.com/shadowww-moses/webapi-level-1/tree/master/img/image-20200423090120394-1588000292243.png)
+![image-20200423090120394](https://raw.githubusercontent.com/shadowww-moses/webapi-level-1/tree/master/img/image-20200423090120394.png)
 
 <p align="center">[1]</p>
 
@@ -118,7 +118,7 @@
 
 # Действия
 
-![image-20200423090553656](https://raw.githubusercontent.com/shadowww-moses/webapi-level-1/tree/master/img/image-20200423090553656-1588000292243.png)
+![image-20200423090553656](https://raw.githubusercontent.com/shadowww-moses/webapi-level-1/tree/master/img/image-20200423090553656.png)
 
 <p align="center">[1]</p>
 
@@ -167,7 +167,7 @@ public object Get()
 
 Список наиболее популярных статус кодов:
 
-<img src="G:\Documents\typora\CSharp\NextLevel\ASP.NET Core\ASP.NET Core - Web API - Basics\img\image-20200423091407381.png" alt="image-20200423091407381" style="zoom:80%;" />
+<img src="https://raw.githubusercontent.com/shadowww-moses/webapi-level-1/tree/master/img/image-20200423091407381.png" alt="image-20200423091407381" style="zoom:80%;" />
 
 Для наиболее распространенных статус-кодов существуют отдельные методы, как показано в примере: `NotFound`, `Ok`, `BadRequest`. Можно набрать `this.` и полистать доступный список.
 
@@ -365,7 +365,7 @@ public async Task<IActionResult> GetFiltered(string? firstName, string? lastName
 
 ### Отправка запроса через Postman
 
-![image-20200423112458643](https://raw.githubusercontent.com/shadowww-moses/webapi-level-1/tree/master/img/image-20200423112458643-1588000292243.png)
+![image-20200423112458643](https://raw.githubusercontent.com/shadowww-moses/webapi-level-1/tree/master/img/image-20200423112458643.png)
 
 <p align="center">[1]</p>
 
@@ -437,7 +437,7 @@ public async Task<IActionResult> PostEmployee([FromBody]Employees employee)
 
 ### Отправка запроса через Postman
 
-![image-20200423120909376](https://raw.githubusercontent.com/shadowww-moses/webapi-level-1/tree/master/img/image-20200423120909376-1588000292243.png)
+![image-20200423120909376](https://raw.githubusercontent.com/shadowww-moses/webapi-level-1/tree/master/img/image-20200423120909376.png)
 
 Указывается тип запроса POST и адрес. Сам объект для отправки составляем во вкладке Body, указав raw и JSON.
 
