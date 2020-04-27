@@ -20,7 +20,7 @@
 
 Структура сообщений, которыми обмениваются по протоколу HTTP, состоит из трех частей:
 
-![image-20200423084216107](https://raw.githubusercontent.com/shadowww-moses/webapi-level-1/master/img/image-20200423084216107-1588000292242.png)
+![image-20200423084216107](https://raw.githubusercontent.com/shadowww-moses/webapi-level-1/tree/master/img/image-20200423084216107-1588000292242.png)
 
 <p align="center">[1]</p>
 
@@ -50,7 +50,7 @@
 
 **Query String** – часть запроса, которая содержит параметры, использующиеся, например, для фильтрации данных. Идет после вопросительного знака:
 
-![image-20200423085720650](https://raw.githubusercontent.com/shadowww-moses/webapi-level-1/master/img/image-20200423085720650-1588000292243.png)
+![image-20200423085720650](https://raw.githubusercontent.com/shadowww-moses/webapi-level-1/tree/master/img/image-20200423085720650-1588000292243.png)
 
 
 
@@ -62,7 +62,7 @@
 
 Здесь всего две настройки. Первая — чтобы при возникновении ошибок нас не перекидывало на другие страницы. А вторая просто для визуального удобства.
 
-![image-20200423091750814](https://raw.githubusercontent.com/shadowww-moses/webapi-level-1/master/img/image-20200423091750814-1588000292243.png)
+![image-20200423091750814](https://raw.githubusercontent.com/shadowww-moses/webapi-level-1/tree/master/img/image-20200423091750814-1588000292243.png)
 
 
 
@@ -97,7 +97,7 @@
 
 Необходимые неймспейсы и за что именно каждый отвечает:
 
-![image-20200423090120394](https://raw.githubusercontent.com/shadowww-moses/webapi-level-1/tree/master/img\image-20200423090120394-1588000292243.png)
+![image-20200423090120394](https://raw.githubusercontent.com/shadowww-moses/webapi-level-1/tree/master/img/image-20200423090120394-1588000292243.png)
 
 <p align="center">[1]</p>
 
@@ -167,7 +167,7 @@ public object Get()
 
 Список наиболее популярных статус кодов:
 
-<img src="https://raw.githubusercontent.com/shadowww-moses/webapi-level-1/blob/master/img/image-20200423091407381.png" alt="image-20200423091407381" style="zoom:80%;" />
+<img src="G:\Documents\typora\CSharp\NextLevel\ASP.NET Core\ASP.NET Core - Web API - Basics\img\image-20200423091407381.png" alt="image-20200423091407381" style="zoom:80%;" />
 
 Для наиболее распространенных статус-кодов существуют отдельные методы, как показано в примере: `NotFound`, `Ok`, `BadRequest`. Можно набрать `this.` и полистать доступный список.
 
