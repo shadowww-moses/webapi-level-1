@@ -20,7 +20,7 @@
 
 Структура сообщений, которыми обмениваются по протоколу HTTP, состоит из трех частей:
 
-![image-20200423084216107](https:\\github.com\shadowww-moses\webapi-level-1\tree\master\img\image-20200423084216107-1588000292242.png)
+![image-20200423084216107](https://github.com/shadowww-moses/webapi-level-1/blob/master/img/image-20200423084216107-1588000292242.png)
 
 <p align="center">[1]</p>
 
