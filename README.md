@@ -50,7 +50,7 @@
 
 **Query String** – часть запроса, которая содержит параметры, использующиеся, например, для фильтрации данных. Идет после вопросительного знака:
 
-![image-20200423085720650](https://github.com/shadowww-moses/webapi-level-1/tree/master/img/image-20200423085720650-1588000292243.png)
+![image-20200423085720650](https://raw.githubusercontent.com/shadowww-moses/webapi-level-1/master/img/image-20200423085720650-1588000292243.png)
 
 
 
